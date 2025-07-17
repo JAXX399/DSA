@@ -12,6 +12,7 @@ public:
         int largest = 1;
         int curr_arr = 0;
         int last_min = INT_MIN;
+        // Handle edge case where nums is empty
         if(nums.size()==0){
             return 0;
         }
